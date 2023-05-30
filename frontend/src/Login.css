@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+Button {
+  margin-left: 10px !important;
+  margin-right: 10px;
+  color: #3f51b5;
+}
+
+.centerTable {
+  margin: 0px auto;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgb(220, 219, 218);
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.forgot-password {
+  align-self: flex-end;
+  margin-top: 6px;
+  margin-bottom: 12px;
+
+}
+
+.forgot-password a {
+  color: red;
+  text-decoration: none;
+}
